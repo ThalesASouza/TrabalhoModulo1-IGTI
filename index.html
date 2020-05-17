@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalho Prático do Módulo 1</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div id="content">
+    <h1>Trabalho Prático do Módulo 1</h1>
+    <form>
+        <label>(R) Vermelho</label>
+        <input type="range" id="red" value="0" max="255"/>
+        <input type="text" class ="value" id="valueR" width="10px" placeholder="0" disabled>
+        <br>
+        <label>(G) Verde</label>
+        <input type="range" id="green" value="0" max="255"/>
+        <input type="text" class="value" id="valueG" width="10px" placeholder="0" disabled>
+        <br>
+        <label>(B) Azul</label>
+        <input type="range" id="blue" value="0" max="255"/>
+        <input type="text" class="value" id="valueB" width="10px" placeholder="0" disabled>
+   
+    </form>
+    <div id="caixaColor"></div>
+  </div>  
+  <script src="./js/script.js"></script>
+</body>
+</html>
